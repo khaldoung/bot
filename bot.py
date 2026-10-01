@@ -71,7 +71,7 @@ from web_server import start_web_server
 # إعدادات البوت
 # =========================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8627088338:AAG_WUMeTm6bxII78cdIkSiYhESIQW6lRIQ"
 
 if not BOT_TOKEN:
     raise RuntimeError(
@@ -94,10 +94,7 @@ FORCE_SUB_CHANNEL_URL = (
 # رابط Mini App
 # =========================================================
 
-WEB_APP_URL = os.getenv(
-    "WEB_APP_URL",
-    "https://whatsapp-bot-v1-5.onrender.com"
-)
+WEB_APP_URL = "https://whatsapp-bot-v1-5.onrender.com"
 
 
 # =========================================================
