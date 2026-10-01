@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+```
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>Temp Mailo</title>
+
+<!-- Telegram Mini App -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<link
+    rel="stylesheet"
+    href="style.css"
+>
+```
+
+</head>
+
+<body>
+
+```
+<div class="app">
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <div class="logo">
+            📧
+        </div>
+
+        <div class="header-text">
+
+            <h1>
+                Temp Mailo
+            </h1>
+
+            <p id="welcomeText">
+                بريدك المؤقت
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         CURRENT EMAIL
+    ========================== -->
+
+    <section class="email-card">
+
+        <div class="card-title">
+
+            <span>
+                📧
+            </span>
+
+            <span id="currentEmailTitle">
+                البريد الحالي
+            </span>
+
+        </div>
+
+
+        <div
+            id="currentEmail"
+            class="current-email"
+        >
+            جاري التحميل...
+        </div>
+
+
+        <button
+            id="copyEmail"
+            class="copy-button"
+        >
+            📋 نسخ البريد
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         DASHBOARD
+    ========================== -->
+
+    <section class="dashboard">
+
+        <!-- Inbox -->
+
+        <button
+            class="dashboard-button"
+            id="inboxButton"
+        >
+
+            <div class="button-icon">
+                📥
+            </div>
+
+            <div class="button-content">
+
+                <strong id="inboxTitle">
+                    صندوق الوارد
+                </strong>
+
+                <small id="inboxDescription">
+                    عرض الرسائل الواردة
+                </small>
+
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </button>
+
+
+        <!-- Language -->
+
+        <button
+            class="dashboard-button"
+            id="languageButton"
+        >
+
+            <div class="button-icon">
+                🌐
+            </div>
+
+            <div class="button-content">
+
+                <strong id="languageTitle">
+                    اللغة
+                </strong>
+
+                <small id="selectedLanguage">
+                    العربية
+                </small>
+
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         CONTENT
+    ========================== -->
+
+    <main id="content">
+
+        <div
+            id="loading"
+            class="loading"
+        >
+            ⏳ جاري التحميل...
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div>
+            👨‍💻 تطوير وبرمجة
+        </div>
+
+        <strong>
+            خلدون نصر
+        </strong>
+
+    </footer>
+
+</div>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="app.js"></script>
+```
+
+</body>
+
+</html>
