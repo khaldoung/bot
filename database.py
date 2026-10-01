@@ -4,7 +4,7 @@ from datetime import datetime
 import asyncpg
 
 
-DATABASE_URL = postgresql://neondb_owner:npg_l1N7iYKCEaHB@ep-little-dream-ayhex1ku-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL = "postgresql://neondb_owner:npg_l1N7iYKCEaHB@ep-little-dream-ayhex1ku-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 
 # =========================================================
