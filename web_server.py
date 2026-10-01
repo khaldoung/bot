@@ -25,7 +25,7 @@ from mailtm import MailTMClient
 # CONFIG
 # =========================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = 8612310722:AAG5NWNSJHmnpRZrhT3oXDUE88yGqLe9klE
 
 WEB_DIR = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
